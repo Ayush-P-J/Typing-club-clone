@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+    border: border-box;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/***top section***/
+.top-section{
+    height: 640px;
+    background-color: #084f8e;
+    background-image: url(images/sky2.png), linear-gradient(0deg, #2666a5, #083466);
+    overflow: hidden;
+    
+
+}
+.nav-bar {
+    align-items: center;
+    justify-content: space-between;
+    height: 73px;
+    background-color: transparent;
+    display: flex;
+    
+}
+
+.nav-bar .logo{
+    padding: 23px;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    float: left;
+}
+.nav-bar .links select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+
+}
+.nav-bar .links select option{
+    color: black;
+    
+
+}
+.nav-bar .links span{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.nav-bar .links a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-bar .links button{
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.nav-bar .links button:hover{
+    background-color: rgb(214, 214, 214);
+}
+.stars{
+    position: absolute;
+    
+}
+.stars img{
+    height: 600px;
+}
+.get-started{
+    display: flex;
+    padding: 100px 50px;
+    
+    justify-content: space-around;
+    
+    
+}
+
+.get-started .moon{
+    padding: 10px;
+}
+.get-started .moon img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 70px 20px rgba(255, 255, 255,0.5);
+    
+    
+    
+}
+
+.get-started .learn{
+    margin-right: 15%;
+}
+.get-started .learn h1{
+    font-size: 40px;
+    margin: 20px 0px;
+    color: white;
+}
+.get-started .learn button{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    color: #084f8e;
+    
+}
+.get-started .learn button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255,0.5);
+    color: rgb(26, 26, 26);
+}
+
+.clouds img{
+    position: absolute;
+    width: 100%;
+    
+    
+}
+.clouds .clouds1{
+    
+    
+    margin-top: 4%;
+}
+.clouds .clouds2{
+    
+    margin-top: 7.5%;
+}
+.clouds .clouds3{
+    
+    margin-top: 9%;
+}
+
+/***Container 1***/
+
+.container1{
+    background-color: white;
+    padding-top: 50px;
+    border-top: 10px solid white;
+    /* position: absolute; */
+    display: flex;
+}
+.browser-image{
+    height: 510px;
+    width: 510px;
+    overflow: hidden;
+    margin-left: 50px;
+    padding:0 50px;
+}
+.browser-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.question1{
+    width: 510px;
+}
+ .question1 h6{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #b0b7c0;
+    padding: 0px 10px;
+    margin: 10px 0px 5px;
+ }
+ .question1 h3{
+    font-size: 30px;
+    color: #2D3238;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+ }
+ .question1 p{
+    font-size: 18px;
+    color: #6c6f73;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+    font-weight: 100;
+ }
+ .question1 button{
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0px 16px;
+    background-color: #2595ff;
+    border: none;
+    color: white;
+ }
+ .question1 button:hover{
+    background-color: #1274cf;
+ }
+
+ /***Panel section***/
+ .panel{
+    background-color: #084f8e;
+    height: 140px;
+ }
+ .panel-content{
+    justify-content: center;
+    display: flex;
+    padding: 40px 100px;
+ }
+
+ .panel-content .contents{
+    width: 300px;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+ }
+ .contents i{
+    font-size: 40px;
+    opacity: .3;
+    padding: 0px 20px;
+    margin-top: -20px;
+ }
+ .contents h4{
+    font-size: 20px;
+ }
+ .contents span{
+    font-size: 15px;
+    opacity: .5;
+ }
+ .contents p{
+    font-weight: 100;
+    opacity: 0.7;
+    font-size: 14px;
+ }
+
+/*** Container 2 ***/
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+    background-color: #f4f5f6;
+    
+
+}
+.question2{
+    width: 360px;
+    padding: 0px 10px;
+}
+
+.question2 h3{
+    font-size: 28px;
+    margin: 10px 0px 5px;
+}
+
+.question2 p{
+    font-size: 16px;
+    color: #6c6f73;
+    margin: 10px 0px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+/*  Container 3  */
+
+.container3{
+    height: 920px;
+    padding: 100px 0px;
+    text-align: center;
+    
+    
+}
+
+.container3 h6{
+    color: #b0b7c0;
+    font-size: 13px;
+    
+} 
+.container3 h2{
+    color: rgb(51, 51, 51);
+    font-size: 28px;
+    
+}
+.container3 button{
+    font-size: 16px;
+    padding: 15px 50px;
+    margin: 0px 16px;
+    background-color: #2595ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+.container3 button:hover{
+    
+    background-color: #1274cf;
+    cursor: pointer;
+    
+
+}
+.inner-head{
+    padding-bottom: 10px;
+}
+
+.inner-box{
+    justify-content: space-evenly;
+    display: flex;
+    width: 80%;
+    height: 170px;
+    margin: 80px 10%;
+
+    
+}
+.box{
+    height: 100px;
+    width: 250px;
+    padding: 0px 20px;
+    margin-bottom: 60px;
+    
+    
+}
+.image{
+    margin-bottom: 60px;
+}
+.box img{
+    align-items: center;
+    height: 100px;
+    width: 180px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+.box p{
+    font-weight: 100;
+    color: #6c6f73;
+    margin-bottom: 100px;
+
+}
+
+/* container 4 */
+
+.container4{
+    background-color: #f4f5f6;
+    padding: 100px 0px;
+    text-align: center;
+}
+.container4 h5{
+    color: #a7adb4;
+    font-size: 13px;
+    padding: 0px 0px 20px;
+    margin: 10px 0px;
+    
+    
+}
+.container4 p{
+    font-size: 16px;
+    color: #6c6f73;
+    font-weight: 100;
+    padding: 0px 10px;
+}
+.container4 span{
+    color: #2595ff;
+    cursor: none;
+}
+.container4 span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.inner-cards{
+    display: flex;
+    margin-left: 8%;
+    
+}
+.cards{
+    height: 370px;
+    width: 340px;
+    padding: 0px 0px 0px 30px;
+    
+}
+.cards img{
+    height: 200px;
+    width: 310px;
+
+}
+.cards a{
+    color: #2595ff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.spelling img{
+    padding: 50px 0px;
+
+}
+.spelling a{
+    color: #2595ff;
+}
+
+.spelling-paragraph{
+    font-size: 28px;
+    color: #6c6f73;
+    font-weight: 100; 
+}
+
+
+/* .container5 */
+
+
+.container5{
+    height: 230px;
+    width: 100%;
+    background-color: #262f36;
+    padding: 100px 0px;
+    display: flex;
+    justify-items: left;
+
+
+}
+.container5 img{
+    height: 100%;
+    width: 230px;
+
+}
+.container5 h5{
+    color: #a7adb4;
+    font-size: 13px;
+    padding: 10px 0px 5px;
+    margin: 10px 0px;
+
+}
+.container5 h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+}
+.container5 .school{
+    width: 340px;
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+.amazing{
+    width: 650px;
+    padding: 0px 10px;
+}
+.amazing p{
+    font-size: 20px;
+    color: #a7adb4;
+    line-height: 30px;
+    padding: 10px 0px;
+}
+
+.amazing button{
+    font-size: 18px;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    border: none;
+    color: #6c6f73;
+    border-radius: 5px;
+
+}
+
+.amazing button:hover{
+    
+    background-color: #dfdfdf;
+    cursor: pointer;
+    
+
+}
+
+/* container6 */
+
+.container6{
+    background-color: #2595ff;
+    background: linear-gradient(#148cfd,#57acfc);
+    height: 270px;
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    
+}
+
+.container6 h5{
+    color: #c7ced6;
+    font-size: 13px;
+    padding: 10px 0px 5px;
+    margin: 10px 0px;
+    letter-spacing: 1.5px;
+}
+
+.container6 h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+}
+.subscribe{
+    background-color: rgba(255, 255, 255,0.5);
+    width: 600px;
+    padding: 35px;
+    border-radius: 5px;
+    margin: 50px 25%;
+    display: flex;
+
+}
+.subscribe input{
+    outline: none;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+
+}
+.subscribe button{
+    font-size: 16px;
+    width: 120px;
+    padding:10px;
+    margin: 0 10px;
+    background-color: #2595ff;
+    border: none;
+    border-radius: 3px;
+
+}
+
+/* container 7 */
+
+.container7{
+    background-color: white;
+    padding: 100px 0px;
+    text-align: center;
+
+}
+
+.container7 h5{
+    color: #c7ced6;
+    font-size: 13px;
+    padding: 10px 0px 5px;
+    margin: 10px 0px;
+    letter-spacing: 1.5px;
+}
+
+.container7 h3{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0px 20px 20px;
+    
+}
+
+.area{
+    width: 80%;
+    margin: 0px 10%;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #262f36;
+    height: 270px;
+    padding: 100px 0px;
+    font-size: 15px;
+}
+.support{
+    margin: 0px 100px;
+    line-height: 200%;
+    color: #bec1c4;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.support span{
+    font-weight: 700;
+    color: white;
+    font-size: 13px;
+
+}
+
+.footer-link li{ 
+    list-style-type: none;
+    
+}
+
